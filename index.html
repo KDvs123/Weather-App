@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-header">
+        <form action="" class="weather-search">
+          <input
+            type="text"
+            placeholder="Search for a city"
+            class="weather-searchform"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="weather-units">
+            <span class="weather-unit-celcius">
+                &#176C
+            </span>
+            <span class="weather-unit-farenheight">
+                &#176F
+            </span>
+        </div>
+      </div>
+      <div class="weather-body">
+        <h1 class="weather-city"></h1>
+        <div class="weather-datetime">
+            <p></p>
+        </div>
+        <div class="weather-forcast">
+
+        </div>
+        <div class="weather-icon">
+        </div>
+        <p class="weather-tempreture">
+          
+        </p>
+        <div class="weather-minmax">
+            <p></p>
+              <p></p>
+        </div>
+
+      </div>
+      <div class="weather-info">
+        <div class="weather-card">
+            <i class="fa-solid fa-temperature-full"></i>
+            <div>
+                <p>Real Feel</p>
+                <p class="weather-realfeel"></p>
+            </div>
+        </div>
+        <div class="weather-card">
+            <i class="fa-solid fa-droplet"></i>
+            <div>
+                <p>Humidity</p>
+                <p class="weather-humidity"></p>
+            </div>
+        </div>
+        <div class="weather-card">
+            <i class="fa-solid fa-wind"></i>
+            <div>
+                <p>Wind</p>
+                <p class="weather-wind"></p>
+            </div>
+        </div>
+        <div class="weather-card">
+            <i class="fa-solid fa-gauge-high"></i>
+            <div>
+                <p>Pressure</p>
+                <p class="weather-pressure"></p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
